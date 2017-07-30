@@ -1,0 +1,22 @@
+PODS:
+  - JTAppleCalendar (7.0.4)
+  - MPPersianDatePicker (0.1.0):
+    - JTAppleCalendar (~> 7.0)
+    - PopupDialog
+  - PopupDialog (0.5.4)
+
+DEPENDENCIES:
+  - MPPersianDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  MPPersianDatePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JTAppleCalendar: 6def48ecd0daae1d5baaa45e813124c2a20b184d
+  MPPersianDatePicker: 98c5e82bcb9b3f61c639d0e21df66a1bdc6bf1e6
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+
+PODFILE CHECKSUM: b38bd48d85bb44ef45e8a17fba301fe7683408c9
+
+COCOAPODS: 1.2.1

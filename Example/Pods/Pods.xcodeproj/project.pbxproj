@@ -1,0 +1,1444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0383A13C6B7C59A3D8EA592B545DABA0 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96596876148D4F56BDE98ABC9649C8 /* JTAppleCalendarDelegateProtocol.swift */; };
+		04D3C5806DA900FA3741BA913ED76BEB /* MPPersianDatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E884389022AB5DF635DA72288780A8 /* MPPersianDatePicker.storyboard */; };
+		1468BFA57947607D4706CFBCF81C1A97 /* MPPersianDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7942D61E0D0BAC8527E312FE35FD1 /* MPPersianDatePicker.swift */; };
+		150F7E235E18316A4E58004DAB2DAF55 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1271F23733FEA562ED429A32ACD46CDD /* UIViewController+Visibility.swift */; };
+		18904C96207EA9E40B4E71F855201AD8 /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF6B6B818CBA06CC33EA842E55650 /* JTAppleCalendarVariables.swift */; };
+		1AC8829C36344674DB76AF232A8C7786 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C828F107AD3C2396795E496F5918 /* PopupDialogContainerView.swift */; };
+		1DAB24BDE62EF34780742A041648492D /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4DAEA7EFE6C4A7648DB53AF0C02ABC /* PopupDialogDefaultViewController.swift */; };
+		21A3A4A6EF95F8704DC18E4E5F509D07 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B3DE96C45B6F2B6FF92703DD90DF9 /* JTAppleCollectionReusableView.swift */; };
+		2856845AB8FCE3B1D319091061F593EF /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B949F1B574FD1BEED7778BF9027E662 /* UserInteractionFunctions.swift */; };
+		2A60B42E5F1F7653F7E6DB5C20BD73FF /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC901157C3F7A8F8A5E7C36B032CFED /* PopupDialogDefaultButtons.swift */; };
+		3E6F2D632BA7800945D901E7C6FED213 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838091AF9CE822FED6FABBF4DFDDF05 /* Animation.swift */; };
+		40A731CDB7C3F0CC677CF4E748957C04 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6A5416EA6DFF67957BEA57DDAB60C /* UIView+Animations.swift */; };
+		40B0668BA1C1DB91FFF35AC6C66F6A97 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25088282B3BA4869C3DA75B29E4E1CAC /* UIImageView+Calculations.swift */; };
+		40B2AE2B918A7EAE9EA6984670F945CD /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259F0F236786DF0FDCF387BA43C7C6B /* PopupDialog.swift */; };
+		42F0A3DBCAC670C336C5C988F6609D98 /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222A5A122127478E3ACDA83027CDF97 /* UICollectionViewDelegates.swift */; };
+		44F7DC37B18C84E67DB74C799ECCCFEB /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6939F72AEB6B5CE6D839999BA2FE5C /* FXBlurView.m */; };
+		47030D42A99B820DF141F2E87A9F239E /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFF2DD1F7956854C4361A8F3C10F87C /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4738A6C3985018F7C8720753C2995FA6 /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C6FF0506E2AC57BC3F9E74FEE171AE /* PopupDialog+Keyboard.swift */; };
+		53D7D34D0142A101314ABFA663AC9D08 /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86061915269DBEAEB53039812212B348 /* JTAppleCalendarView.swift */; };
+		57174EED87DF29A25C38B589283A2046 /* Pods-MPPersianDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9B3607D420421798A3106F047C223 /* Pods-MPPersianDatePicker_Tests-dummy.m */; };
+		57EC8BDC149EAD968CA57DA62CB4998A /* Pods-MPPersianDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CF293FB2879302F7175196C1C676BC /* Pods-MPPersianDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1255F939210321D888DE445A384570 /* TZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FBD9B2987B4A62E782CA45E65C13B /* TZStackView.swift */; };
+		5AA9E0162C97E8E97F2A558B1F243CF4 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CDE6C844C61F6430B19C7F89A5B1F /* PopupDialogButton.swift */; };
+		5E680D7A27D81F66CD877CA09D2BB5AD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90C60833EB416046448282E06E7E25 /* CustomButton.swift */; };
+		6355D02DE8504B765DFB5C6CDBFF5B36 /* MPPersianDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3022C1593380C6244E59620481DF5DE5 /* MPPersianDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66034CEEF327A950C4642734A3496490 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33D8E5F9CB2309C09F7F69A541628F /* InteractiveTransition.swift */; };
+		6B3621D80554D395F5DC74C882FF9347 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B98C58729A0E006F3057CBC5F676B5 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DE7D8CE614DBA55D744EDE81C632AD8 /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C110E8E915464FB72AF3017043AC80 /* CalendarStructs.swift */; };
+		6E7FE80513DC37D1C2BF75AAC1D7ADD4 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6713C73B77A084BFDDFC03CD568B1D8C /* TransitionAnimator.swift */; };
+		6E8E4422AA0E96DCBB9D329BDFFB881A /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01F623D871F82D5DF225CE788B16F3 /* GlobalFunctionsAndExtensions.swift */; };
+		71261B7936CBA44B0D07CEC7B4DE437A /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EF5C7D99D394C723CAEC72108940A6 /* PopupDialog.framework */; };
+		74AA5E4A76F76AA8372F4CB6AFD3189B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AE72B079138BE755E712A245EF118 /* Foundation.framework */; };
+		77FE749E0B034CAA403776FB6CA25E35 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E7AD5DB2B471F773D7E675A3A86 /* PopupDialogDefaultView.swift */; };
+		7BE39092951B492E5954D8012747BFD0 /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524AE9B2B112539955DDC9B474CF2FF /* JTAppleCalendarLayout.swift */; };
+		84E7C60C1F2A075600E73349 /* MPPersianDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3022C1593380C6244E59620481DF5DE5 /* MPPersianDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E7C6131F2A109200E73349 /* DateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7C60D1F2A07D100E73349 /* DateType.swift */; };
+		84E7C6141F2A109200E73349 /* MPCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7C60E1F2A07D100E73349 /* MPCalendar.swift */; };
+		84E7C6151F2A109200E73349 /* MPConvertorCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7C60F1F2A07D100E73349 /* MPConvertorCalendar.swift */; };
+		84E7C6161F2A109200E73349 /* MPGregorianCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7C6101F2A07D100E73349 /* MPGregorianCalendar.swift */; };
+		84E7C6171F2A109200E73349 /* MPHijriCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7C6111F2A07D100E73349 /* MPHijriCalendar.swift */; };
+		84E7C6181F2A109200E73349 /* MPPersianCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7C6121F2A07D100E73349 /* MPPersianCalendar.swift */; };
+		87329FA016F0D57803855BCE3E90EC82 /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439897AFC7A481DE1AE2A5234F81E25 /* JTCalendarProtocols.swift */; };
+		894A32DE8E316BE62B3B8B4542E2E248 /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD62061BB03DBB69FB7F9FE325A1C97 /* TZStackViewAlignment.swift */; };
+		982EE7F751CF25929BEDD261C694C71D /* IRAN Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BE76C8FEA0E932073237E8C0EB3ECB9 /* IRAN Sans Bold.ttf */; };
+		9D91467BC728C7E653109DCD858A7CE2 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDF141B735C88E15F452DD640B22818 /* PopupDialogOverlayView.swift */; };
+		A46F31957AE4404708339F001470B70C /* Pods-MPPersianDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6C21F7BAF3FD0FD27F26467A468481 /* Pods-MPPersianDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74D09BD02C219096484DF2E3097B722 /* MPPersianDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F34C97D0010FB03C7152A5C5415C60D /* MPPersianDatePicker-dummy.m */; };
+		AD07BFC6787F19F9D7CADB48C114FDB7 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6197B5BD0F345B5DEB9FBCCA112B01 /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B058D5C4D74E7A6DD2859DAF56EADEFF /* MPPersianDatePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C05792635542069959B56AF6E5DFB1B5 /* MPPersianDatePicker.bundle */; };
+		B815F6A8C0E87E87871758E6EAD46D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AE72B079138BE755E712A245EF118 /* Foundation.framework */; };
+		B9ABAE650A3000DAEE81B449895988E1 /* AnimationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E5B0F41C56D6F996D160E47D3025F3 /* AnimationClass.swift */; };
+		C0E89E7C24A9A82736494BA0355975F0 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34929EEB07857BC84905495F7F187C3 /* JTAppleCalendar.framework */; };
+		C27684E01B2B0AA00CB1CB7D3367A9CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AE72B079138BE755E712A245EF118 /* Foundation.framework */; };
+		CA0FDA731D35B6DDF367E29E8DFF11DB /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B3E2D9986011F235A0D93FA9C0BF8 /* TZStackViewDistribution.swift */; };
+		CCB021AE4114A26C528B52DC33BB6AAE /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFB37BE9B27246B23DD377DC20FA35 /* CellView.swift */; };
+		DC30B64F2445E397E2CF6BEC9490ADAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AE72B079138BE755E712A245EF118 /* Foundation.framework */; };
+		DC68D33C28C38EAFA1C0A3ED7455CB11 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB18814C6127D2DE4BC9FD323741EE /* PresentationController.swift */; };
+		DD76BEBDFCA2286CB43BCCB055F4E6DA /* Pods-MPPersianDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3D974693B8D0F33D454F9751FC713 /* Pods-MPPersianDatePicker_Example-dummy.m */; };
+		E10E15A8A65DB167DE5046915870021A /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592818557067C1052C5003A9C421F592 /* JTAppleCalendarLayoutProtocol.swift */; };
+		E177ECCB39E4E0E006AE3E7C11DA95F4 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3F4B6362BCDF28712157889C41634 /* TransitionAnimations.swift */; };
+		E1CF59B57CC636FECACC39325231B177 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0898528CE9908F3F3C75239FDE05DC9 /* CalendarEnums.swift */; };
+		E4E19B08166BF4E9E368134D68E9C7DE /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931BBA5BDEE5CCE2D6458EEDFB7B29E5 /* JTAppleCalendar-dummy.m */; };
+		E92DD4F696EFBDF8BC3754CB60E05651 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9925E70DF5DC1F75C8B7542D2DA6B05E /* CustomView.swift */; };
+		EF6BFEA89DC092CD352CDF2FB3466617 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF1FA3F680350FEC90E571C45FA2B9 /* PopupDialog-dummy.m */; };
+		F003F6D80D1081CBA9F30BD56625F4AA /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E421AC4CC463B7E61B2BAEB5AF8B3C /* TZSpacerView.swift */; };
+		F2BB49EF903A70B7B68565CCE233FB83 /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E284A7E09F0D7CE514D91B832CD833A /* JTAppleCell.swift */; };
+		F9110BAE110E561696E24C9A946B5454 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304F73F8294E08C057DA024C796E95A /* PresentationManager.swift */; };
+		F963037A1450F74FAE911C248EED47CE /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF46F204CBC49A5F5533B55B939CB5 /* UIScrollViewDelegates.swift */; };
+		FB571E2A0957F93B0DD9300C3931E78A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D634A15C8B5463CA85D04CF389E2C131 /* UIKit.framework */; };
+		FB73FC5D16D5E32609016BBD86D6318A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AE72B079138BE755E712A245EF118 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31827F7A57FD2ABA5CBE7E55E408DA26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFED2E29E95E065400F8846E0231A970;
+			remoteInfo = JTAppleCalendar;
+		};
+		493991998A4DE77F29717445CBB8562B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCBBECD699C13938121AF38DD6FA440;
+			remoteInfo = "MPPersianDatePicker-MPPersianDatePicker";
+		};
+		53BD02A97BE22710F57F787C9F37E48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0886E43A93B2EF376A02C86FD15BC1D0;
+			remoteInfo = PopupDialog;
+		};
+		7832B949F5C031BBDBE4D457F05FECBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFED2E29E95E065400F8846E0231A970;
+			remoteInfo = JTAppleCalendar;
+		};
+		92B8E2825581C257CB719A2414791ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0886E43A93B2EF376A02C86FD15BC1D0;
+			remoteInfo = PopupDialog;
+		};
+		DFC51A679F4500B5CF9F2200AE384F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99C5CC1237B32595CC401A65A57B94E;
+			remoteInfo = MPPersianDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C7942D61E0D0BAC8527E312FE35FD1 /* MPPersianDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MPPersianDatePicker.swift; sourceTree = "<group>"; };
+		033A31FC060499CA37BDFC23F4E0BBF7 /* Pods-MPPersianDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPPersianDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		048AE72B079138BE755E712A245EF118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		06C6FF0506E2AC57BC3F9E74FEE171AE /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		07C110E8E915464FB72AF3017043AC80 /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
+		0BFF1FA3F680350FEC90E571C45FA2B9 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		0E8B237256F5C59479793F32FD145134 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA3D974693B8D0F33D454F9751FC713 /* Pods-MPPersianDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPPersianDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		1271F23733FEA562ED429A32ACD46CDD /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		15D52FADDE6615050AD0677FEBCA861B /* Pods_MPPersianDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPPersianDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162B3E2D9986011F235A0D93FA9C0BF8 /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewDistribution.swift; path = PopupDialog/Classes/TZStackView/TZStackViewDistribution.swift; sourceTree = "<group>"; };
+		19CCC0C984471A2B062724C90C88E71E /* Pods-MPPersianDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPPersianDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B6939F72AEB6B5CE6D839999BA2FE5C /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
+		25088282B3BA4869C3DA75B29E4E1CAC /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		25B1B49726038AF84410B347187B2CDF /* Pods_MPPersianDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPPersianDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E5B0F41C56D6F996D160E47D3025F3 /* AnimationClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationClass.swift; sourceTree = "<group>"; };
+		28CF293FB2879302F7175196C1C676BC /* Pods-MPPersianDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPPersianDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		2AD62061BB03DBB69FB7F9FE325A1C97 /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewAlignment.swift; path = PopupDialog/Classes/TZStackView/TZStackViewAlignment.swift; sourceTree = "<group>"; };
+		3022C1593380C6244E59620481DF5DE5 /* MPPersianDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPPersianDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		3D6197B5BD0F345B5DEB9FBCCA112B01 /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
+		421A772683690ECD290C8CF376D6AF92 /* Pods-MPPersianDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPPersianDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		43CB32BC6949DDDD2DA29DA2A188020A /* Pods-MPPersianDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPPersianDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4470199EA4848ECF425AAF11F81798F0 /* Pods-MPPersianDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPPersianDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4652AED401993CCAC02F3D04DF66E9BF /* Pods-MPPersianDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPPersianDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		48E421AC4CC463B7E61B2BAEB5AF8B3C /* TZSpacerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZSpacerView.swift; path = PopupDialog/Classes/TZStackView/TZSpacerView.swift; sourceTree = "<group>"; };
+		4D2CDE6C844C61F6430B19C7F89A5B1F /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		4DB9B3607D420421798A3106F047C223 /* Pods-MPPersianDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPPersianDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F34C97D0010FB03C7152A5C5415C60D /* MPPersianDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPPersianDatePicker-dummy.m"; sourceTree = "<group>"; };
+		50E884389022AB5DF635DA72288780A8 /* MPPersianDatePicker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MPPersianDatePicker.storyboard; sourceTree = "<group>"; };
+		5222A5A122127478E3ACDA83027CDF97 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
+		5337C0EDDC0CC7DDCFB83EB1FE32D8F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592818557067C1052C5003A9C421F592 /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
+		5B33D8E5F9CB2309C09F7F69A541628F /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		5ECFB37BE9B27246B23DD377DC20FA35 /* CellView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		655FBD9B2987B4A62E782CA45E65C13B /* TZStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackView.swift; path = PopupDialog/Classes/TZStackView/TZStackView.swift; sourceTree = "<group>"; };
+		6713C73B77A084BFDDFC03CD568B1D8C /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		6721F97DBD74DA216520A3A0360C785A /* Pods-MPPersianDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPPersianDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6838091AF9CE822FED6FABBF4DFDDF05 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		6B949F1B574FD1BEED7778BF9027E662 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		6BE76C8FEA0E932073237E8C0EB3ECB9 /* IRAN Sans Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "IRAN Sans Bold.ttf"; sourceTree = "<group>"; };
+		6DF7A2D6F32F22727E617B0B3CED2D5B /* MPPersianDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPPersianDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E284A7E09F0D7CE514D91B832CD833A /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		6FDF141B735C88E15F452DD640B22818 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		7B6E253C1858876EC7A3724968339BD1 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		800DB7BBCDF7BF976D73096F778E71DE /* Pods-MPPersianDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPPersianDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		809A65D97A68B02545D8C5B9EAB76C2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82899690851B971FF6D6D609D57C8FFC /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		84E7C60D1F2A07D100E73349 /* DateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateType.swift; sourceTree = "<group>"; };
+		84E7C60E1F2A07D100E73349 /* MPCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCalendar.swift; sourceTree = "<group>"; };
+		84E7C60F1F2A07D100E73349 /* MPConvertorCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConvertorCalendar.swift; sourceTree = "<group>"; };
+		84E7C6101F2A07D100E73349 /* MPGregorianCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGregorianCalendar.swift; sourceTree = "<group>"; };
+		84E7C6111F2A07D100E73349 /* MPHijriCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPHijriCalendar.swift; sourceTree = "<group>"; };
+		84E7C6121F2A07D100E73349 /* MPPersianCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPersianCalendar.swift; sourceTree = "<group>"; };
+		86061915269DBEAEB53039812212B348 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		87A237BA9AC2E92F9120BFA042FD9625 /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
+		8A7478E44139F182C5EC27B42331303C /* ResourceBundle-MPPersianDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MPPersianDatePicker-Info.plist"; sourceTree = "<group>"; };
+		8DF8ED1D729242D26CBEE4BB9EFDFA37 /* Pods-MPPersianDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPPersianDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9035A8C8A08D1AE1CDE384A39C7AA3D0 /* Pods-MPPersianDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPPersianDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90EF5C7D99D394C723CAEC72108940A6 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931BBA5BDEE5CCE2D6458EEDFB7B29E5 /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9925E70DF5DC1F75C8B7542D2DA6B05E /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9F01F623D871F82D5DF225CE788B16F3 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		9F7BD8D7945D157BC775A6AD4DC9E537 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		A0898528CE9908F3F3C75239FDE05DC9 /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
+		A439897AFC7A481DE1AE2A5234F81E25 /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		A4B98C58729A0E006F3057CBC5F676B5 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		A78D600B448CF3052F254993098EE7AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCFC51A1D94D53723FC5D029970880E /* Pods-MPPersianDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPPersianDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ACD3058712DE187F8C29465DCD2F521F /* Pods-MPPersianDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPPersianDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3BC414CD2208056D82EEE528F55A742 /* Pods-MPPersianDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPPersianDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		B89C6B783C1CB6E5BCECB2352C36B5FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD020CC0F6AEB928B9099A2282F2CCF /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
+		BCE95659B2637E91F9C26A311F45EDB5 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
+		BCF6A5416EA6DFF67957BEA57DDAB60C /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		BDC901157C3F7A8F8A5E7C36B032CFED /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		BE90C60833EB416046448282E06E7E25 /* CustomButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C05792635542069959B56AF6E5DFB1B5 /* MPPersianDatePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPPersianDatePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88B3DE96C45B6F2B6FF92703DD90DF9 /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
+		C91C8E7AD5DB2B471F773D7E675A3A86 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		C9EF46F204CBC49A5F5533B55B939CB5 /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
+		CBDABC1CEA5E37E152A139AE94C4337D /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96596876148D4F56BDE98ABC9649C8 /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		CF6C21F7BAF3FD0FD27F26467A468481 /* Pods-MPPersianDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPPersianDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D0662166B6F7F85B4440D9963DFE1820 /* Pods-MPPersianDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPPersianDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D0A3F4B6362BCDF28712157889C41634 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		D304F73F8294E08C057DA024C796E95A /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		D34929EEB07857BC84905495F7F187C3 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D634A15C8B5463CA85D04CF389E2C131 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE73754C34830605716F022D88B1A591 /* MPPersianDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MPPersianDatePicker.modulemap; sourceTree = "<group>"; };
+		E07CEB35B6380E9B12FF7FA87FF3ECDB /* MPPersianDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPPersianDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		E259F0F236786DF0FDCF387BA43C7C6B /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		E4DCF6B6B818CBA06CC33EA842E55650 /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
+		EBFF2DD1F7956854C4361A8F3C10F87C /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
+		EC4DAEA7EFE6C4A7648DB53AF0C02ABC /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		F086DE26FBC99A01B5FDC7A8F39EF98E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EB18814C6127D2DE4BC9FD323741EE /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		F524AE9B2B112539955DDC9B474CF2FF /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
+		FA2323065DF79BBA4D1354E9F20E6BF6 /* MPPersianDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPPersianDatePicker.xcconfig; sourceTree = "<group>"; };
+		FE66C828F107AD3C2396795E496F5918 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D46081934B4F589FCEABF7E1D96F74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27684E01B2B0AA00CB1CB7D3367A9CD /* Foundation.framework in Frameworks */,
+				C0E89E7C24A9A82736494BA0355975F0 /* JTAppleCalendar.framework in Frameworks */,
+				71261B7936CBA44B0D07CEC7B4DE437A /* PopupDialog.framework in Frameworks */,
+				FB571E2A0957F93B0DD9300C3931E78A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BEEC4A45518E8BA433FF01EC8C245C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC30B64F2445E397E2CF6BEC9490ADAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A5CF96F6DE1FB8A378FD0FFDE0E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB73FC5D16D5E32609016BBD86D6318A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A38528F491C16A318D4091CF2E1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B815F6A8C0E87E87871758E6EAD46D89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F52BA1D4B5254FB80F2B4B4467557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E019D1BAC8E23ADAB40F883078CD6604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AA5E4A76F76AA8372F4CB6AFD3189B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0192FDD4179B59994EBDF26562B98EBE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6BE76C8FEA0E932073237E8C0EB3ECB9 /* IRAN Sans Bold.ttf */,
+				50E884389022AB5DF635DA72288780A8 /* MPPersianDatePicker.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		02F324BC50232CDED46687A1ABBA1120 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26B7E0282F8CDDBEF846CA9CB4519546 /* Pods-MPPersianDatePicker_Example */,
+				FF172434FE454D0EECB525CB018ACFD4 /* Pods-MPPersianDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		048F9FE7CC7AA03EC174728DBFA59DAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF10CC187CDDF5B19315BACD05771CAD /* MPPersianDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		15663AFFD73E4A8A09A5C9CD55691E01 /* JTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A0898528CE9908F3F3C75239FDE05DC9 /* CalendarEnums.swift */,
+				07C110E8E915464FB72AF3017043AC80 /* CalendarStructs.swift */,
+				9F01F623D871F82D5DF225CE788B16F3 /* GlobalFunctionsAndExtensions.swift */,
+				CD96596876148D4F56BDE98ABC9649C8 /* JTAppleCalendarDelegateProtocol.swift */,
+				F524AE9B2B112539955DDC9B474CF2FF /* JTAppleCalendarLayout.swift */,
+				592818557067C1052C5003A9C421F592 /* JTAppleCalendarLayoutProtocol.swift */,
+				E4DCF6B6B818CBA06CC33EA842E55650 /* JTAppleCalendarVariables.swift */,
+				86061915269DBEAEB53039812212B348 /* JTAppleCalendarView.swift */,
+				6E284A7E09F0D7CE514D91B832CD833A /* JTAppleCell.swift */,
+				C88B3DE96C45B6F2B6FF92703DD90DF9 /* JTAppleCollectionReusableView.swift */,
+				A439897AFC7A481DE1AE2A5234F81E25 /* JTCalendarProtocols.swift */,
+				5222A5A122127478E3ACDA83027CDF97 /* UICollectionViewDelegates.swift */,
+				C9EF46F204CBC49A5F5533B55B939CB5 /* UIScrollViewDelegates.swift */,
+				6B949F1B574FD1BEED7778BF9027E662 /* UserInteractionFunctions.swift */,
+				8ABC4C17B9264CEB2864680C9DE95D91 /* Support Files */,
+			);
+			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
+		2304067DFFE9DBBBF8695B1A37F860D5 /* MPPersianDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9425734A8311E766558B21FBE75C8BF8 /* Classes */,
+			);
+			path = MPPersianDatePicker;
+			sourceTree = "<group>";
+		};
+		26B7E0282F8CDDBEF846CA9CB4519546 /* Pods-MPPersianDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5337C0EDDC0CC7DDCFB83EB1FE32D8F1 /* Info.plist */,
+				800DB7BBCDF7BF976D73096F778E71DE /* Pods-MPPersianDatePicker_Example.modulemap */,
+				8DF8ED1D729242D26CBEE4BB9EFDFA37 /* Pods-MPPersianDatePicker_Example-acknowledgements.markdown */,
+				6721F97DBD74DA216520A3A0360C785A /* Pods-MPPersianDatePicker_Example-acknowledgements.plist */,
+				0EA3D974693B8D0F33D454F9751FC713 /* Pods-MPPersianDatePicker_Example-dummy.m */,
+				ABCFC51A1D94D53723FC5D029970880E /* Pods-MPPersianDatePicker_Example-frameworks.sh */,
+				033A31FC060499CA37BDFC23F4E0BBF7 /* Pods-MPPersianDatePicker_Example-resources.sh */,
+				28CF293FB2879302F7175196C1C676BC /* Pods-MPPersianDatePicker_Example-umbrella.h */,
+				9035A8C8A08D1AE1CDE384A39C7AA3D0 /* Pods-MPPersianDatePicker_Example.debug.xcconfig */,
+				19CCC0C984471A2B062724C90C88E71E /* Pods-MPPersianDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-MPPersianDatePicker_Example";
+			path = "Target Support Files/Pods-MPPersianDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		4A2376E3398B37153A376FB72F613E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E8B237256F5C59479793F32FD145134 /* JTAppleCalendar.framework */,
+				C05792635542069959B56AF6E5DFB1B5 /* MPPersianDatePicker.bundle */,
+				6DF7A2D6F32F22727E617B0B3CED2D5B /* MPPersianDatePicker.framework */,
+				15D52FADDE6615050AD0677FEBCA861B /* Pods_MPPersianDatePicker_Example.framework */,
+				25B1B49726038AF84410B347187B2CDF /* Pods_MPPersianDatePicker_Tests.framework */,
+				CBDABC1CEA5E37E152A139AE94C4337D /* PopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5672B8859597EAD1FC3DAD99C85D5B4D /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF2DD1F7956854C4361A8F3C10F87C /* FXBlurView.h */,
+				1B6939F72AEB6B5CE6D839999BA2FE5C /* FXBlurView.m */,
+				5B33D8E5F9CB2309C09F7F69A541628F /* InteractiveTransition.swift */,
+				E259F0F236786DF0FDCF387BA43C7C6B /* PopupDialog.swift */,
+				06C6FF0506E2AC57BC3F9E74FEE171AE /* PopupDialog+Keyboard.swift */,
+				4D2CDE6C844C61F6430B19C7F89A5B1F /* PopupDialogButton.swift */,
+				FE66C828F107AD3C2396795E496F5918 /* PopupDialogContainerView.swift */,
+				BDC901157C3F7A8F8A5E7C36B032CFED /* PopupDialogDefaultButtons.swift */,
+				C91C8E7AD5DB2B471F773D7E675A3A86 /* PopupDialogDefaultView.swift */,
+				EC4DAEA7EFE6C4A7648DB53AF0C02ABC /* PopupDialogDefaultViewController.swift */,
+				6FDF141B735C88E15F452DD640B22818 /* PopupDialogOverlayView.swift */,
+				F4EB18814C6127D2DE4BC9FD323741EE /* PresentationController.swift */,
+				D304F73F8294E08C057DA024C796E95A /* PresentationManager.swift */,
+				D0A3F4B6362BCDF28712157889C41634 /* TransitionAnimations.swift */,
+				6713C73B77A084BFDDFC03CD568B1D8C /* TransitionAnimator.swift */,
+				48E421AC4CC463B7E61B2BAEB5AF8B3C /* TZSpacerView.swift */,
+				655FBD9B2987B4A62E782CA45E65C13B /* TZStackView.swift */,
+				2AD62061BB03DBB69FB7F9FE325A1C97 /* TZStackViewAlignment.swift */,
+				162B3E2D9986011F235A0D93FA9C0BF8 /* TZStackViewDistribution.swift */,
+				25088282B3BA4869C3DA75B29E4E1CAC /* UIImageView+Calculations.swift */,
+				BCF6A5416EA6DFF67957BEA57DDAB60C /* UIView+Animations.swift */,
+				1271F23733FEA562ED429A32ACD46CDD /* UIViewController+Visibility.swift */,
+				627D1F58DC7140C9C4AF72A6410BBC8A /* Support Files */,
+			);
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		5A5A3C074FB09FAB8973B1FC5B1786EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15663AFFD73E4A8A09A5C9CD55691E01 /* JTAppleCalendar */,
+				5672B8859597EAD1FC3DAD99C85D5B4D /* PopupDialog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		627D1F58DC7140C9C4AF72A6410BBC8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				809A65D97A68B02545D8C5B9EAB76C2F /* Info.plist */,
+				7B6E253C1858876EC7A3724968339BD1 /* PopupDialog.modulemap */,
+				9F7BD8D7945D157BC775A6AD4DC9E537 /* PopupDialog.xcconfig */,
+				0BFF1FA3F680350FEC90E571C45FA2B9 /* PopupDialog-dummy.m */,
+				82899690851B971FF6D6D609D57C8FFC /* PopupDialog-prefix.pch */,
+				A4B98C58729A0E006F3057CBC5F676B5 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				048F9FE7CC7AA03EC174728DBFA59DAB /* Development Pods */,
+				857CFEA419BB1CEF836DE33788AE361C /* Frameworks */,
+				5A5A3C074FB09FAB8973B1FC5B1786EA /* Pods */,
+				4A2376E3398B37153A376FB72F613E88 /* Products */,
+				02F324BC50232CDED46687A1ABBA1120 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		857CFEA419BB1CEF836DE33788AE361C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D34929EEB07857BC84905495F7F187C3 /* JTAppleCalendar.framework */,
+				90EF5C7D99D394C723CAEC72108940A6 /* PopupDialog.framework */,
+				CD66086DAC6314ADB085F10F609E763C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ABC4C17B9264CEB2864680C9DE95D91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B89C6B783C1CB6E5BCECB2352C36B5FF /* Info.plist */,
+				BCD020CC0F6AEB928B9099A2282F2CCF /* JTAppleCalendar.modulemap */,
+				BCE95659B2637E91F9C26A311F45EDB5 /* JTAppleCalendar.xcconfig */,
+				931BBA5BDEE5CCE2D6458EEDFB7B29E5 /* JTAppleCalendar-dummy.m */,
+				87A237BA9AC2E92F9120BFA042FD9625 /* JTAppleCalendar-prefix.pch */,
+				3D6197B5BD0F345B5DEB9FBCCA112B01 /* JTAppleCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTAppleCalendar";
+			sourceTree = "<group>";
+		};
+		9425734A8311E766558B21FBE75C8BF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6838091AF9CE822FED6FABBF4DFDDF05 /* Animation.swift */,
+				25E5B0F41C56D6F996D160E47D3025F3 /* AnimationClass.swift */,
+				5ECFB37BE9B27246B23DD377DC20FA35 /* CellView.swift */,
+				BE90C60833EB416046448282E06E7E25 /* CustomButton.swift */,
+				9925E70DF5DC1F75C8B7542D2DA6B05E /* CustomView.swift */,
+				00C7942D61E0D0BAC8527E312FE35FD1 /* MPPersianDatePicker.swift */,
+				84E7C60D1F2A07D100E73349 /* DateType.swift */,
+				84E7C60E1F2A07D100E73349 /* MPCalendar.swift */,
+				84E7C60F1F2A07D100E73349 /* MPConvertorCalendar.swift */,
+				84E7C6101F2A07D100E73349 /* MPGregorianCalendar.swift */,
+				84E7C6111F2A07D100E73349 /* MPHijriCalendar.swift */,
+				84E7C6121F2A07D100E73349 /* MPPersianCalendar.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B266754D6B3F166D4096B7FF08CBA43E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2927C3BBB34F1D06CEE391D3B7F8805 /* MPPersianDatePicker */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4A4695A971A5FDF784D2FF919C72CFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78D600B448CF3052F254993098EE7AB /* Info.plist */,
+				DE73754C34830605716F022D88B1A591 /* MPPersianDatePicker.modulemap */,
+				FA2323065DF79BBA4D1354E9F20E6BF6 /* MPPersianDatePicker.xcconfig */,
+				4F34C97D0010FB03C7152A5C5415C60D /* MPPersianDatePicker-dummy.m */,
+				E07CEB35B6380E9B12FF7FA87FF3ECDB /* MPPersianDatePicker-prefix.pch */,
+				3022C1593380C6244E59620481DF5DE5 /* MPPersianDatePicker-umbrella.h */,
+				8A7478E44139F182C5EC27B42331303C /* ResourceBundle-MPPersianDatePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPPersianDatePicker";
+			sourceTree = "<group>";
+		};
+		CD66086DAC6314ADB085F10F609E763C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				048AE72B079138BE755E712A245EF118 /* Foundation.framework */,
+				D634A15C8B5463CA85D04CF389E2C131 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D2927C3BBB34F1D06CEE391D3B7F8805 /* MPPersianDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0192FDD4179B59994EBDF26562B98EBE /* Assets */,
+			);
+			path = MPPersianDatePicker;
+			sourceTree = "<group>";
+		};
+		FF10CC187CDDF5B19315BACD05771CAD /* MPPersianDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2304067DFFE9DBBBF8695B1A37F860D5 /* MPPersianDatePicker */,
+				B266754D6B3F166D4096B7FF08CBA43E /* Resources */,
+				C4A4695A971A5FDF784D2FF919C72CFE /* Support Files */,
+			);
+			name = MPPersianDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FF172434FE454D0EECB525CB018ACFD4 /* Pods-MPPersianDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F086DE26FBC99A01B5FDC7A8F39EF98E /* Info.plist */,
+				4652AED401993CCAC02F3D04DF66E9BF /* Pods-MPPersianDatePicker_Tests.modulemap */,
+				ACD3058712DE187F8C29465DCD2F521F /* Pods-MPPersianDatePicker_Tests-acknowledgements.markdown */,
+				4470199EA4848ECF425AAF11F81798F0 /* Pods-MPPersianDatePicker_Tests-acknowledgements.plist */,
+				4DB9B3607D420421798A3106F047C223 /* Pods-MPPersianDatePicker_Tests-dummy.m */,
+				D0662166B6F7F85B4440D9963DFE1820 /* Pods-MPPersianDatePicker_Tests-frameworks.sh */,
+				B3BC414CD2208056D82EEE528F55A742 /* Pods-MPPersianDatePicker_Tests-resources.sh */,
+				CF6C21F7BAF3FD0FD27F26467A468481 /* Pods-MPPersianDatePicker_Tests-umbrella.h */,
+				43CB32BC6949DDDD2DA29DA2A188020A /* Pods-MPPersianDatePicker_Tests.debug.xcconfig */,
+				421A772683690ECD290C8CF376D6AF92 /* Pods-MPPersianDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-MPPersianDatePicker_Tests";
+			path = "Target Support Files/Pods-MPPersianDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F8E9F23D44683D0190860BCD16B5FC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6355D02DE8504B765DFB5C6CDBFF5B36 /* MPPersianDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A525F28CB30164B22ACB5900CBD7612 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47030D42A99B820DF141F2E87A9F239E /* FXBlurView.h in Headers */,
+				6B3621D80554D395F5DC74C882FF9347 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9111786838F8C9AA9BCD0086171584F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46F31957AE4404708339F001470B70C /* Pods-MPPersianDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A687F6737E3F2259B2BBC8020B5684BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EC8BDC149EAD968CA57DA62CB4998A /* Pods-MPPersianDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3B104AA552AE0C55DA5E3D426A375A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07BFC6787F19F9D7CADB48C114FDB7 /* JTAppleCalendar-umbrella.h in Headers */,
+				84E7C60C1F2A075600E73349 /* MPPersianDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0886E43A93B2EF376A02C86FD15BC1D0 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EC60AF881C5F37155D15CCA91CD54F /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				9C58E59B4874923D62EB0E756BDB022F /* Sources */,
+				E019D1BAC8E23ADAB40F883078CD6604 /* Frameworks */,
+				3A525F28CB30164B22ACB5900CBD7612 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = CBDABC1CEA5E37E152A139AE94C4337D /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C5315050C93B116458DD1E00447EF5F /* Pods-MPPersianDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8355A9097D1DC57F9065C93E3DB6FB /* Build configuration list for PBXNativeTarget "Pods-MPPersianDatePicker_Example" */;
+			buildPhases = (
+				68D8EB9B9CBF9F952F5EFD4A1302388B /* Sources */,
+				25BEEC4A45518E8BA433FF01EC8C245C /* Frameworks */,
+				A687F6737E3F2259B2BBC8020B5684BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BBF94AD9859277E4DD04737FA561D7 /* PBXTargetDependency */,
+				2E4707484FF8555810590C9DAEE28EDD /* PBXTargetDependency */,
+				C52B5E5B77976F54B5FAA75D529AD360 /* PBXTargetDependency */,
+			);
+			name = "Pods-MPPersianDatePicker_Example";
+			productName = "Pods-MPPersianDatePicker_Example";
+			productReference = 15D52FADDE6615050AD0677FEBCA861B /* Pods_MPPersianDatePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		996EBF3DCF3A60EEDA9086D9787236DE /* Pods-MPPersianDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44E58C9EDD4F7814294870C69C03164 /* Build configuration list for PBXNativeTarget "Pods-MPPersianDatePicker_Tests" */;
+			buildPhases = (
+				6B8FA2ED660F1D82209F812887CDF851 /* Sources */,
+				331A5CF96F6DE1FB8A378FD0FFDE0E87 /* Frameworks */,
+				9111786838F8C9AA9BCD0086171584F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MPPersianDatePicker_Tests";
+			productName = "Pods-MPPersianDatePicker_Tests";
+			productReference = 25B1B49726038AF84410B347187B2CDF /* Pods_MPPersianDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABCBBECD699C13938121AF38DD6FA440 /* MPPersianDatePicker-MPPersianDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F518789555F0F11514B5B0C0383D79B /* Build configuration list for PBXNativeTarget "MPPersianDatePicker-MPPersianDatePicker" */;
+			buildPhases = (
+				0A4098C744BC2C38FAB1FEDF16ECBC25 /* Sources */,
+				B40F52BA1D4B5254FB80F2B4B4467557 /* Frameworks */,
+				2560A5494E85F3BFCEF3C255734AA942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPPersianDatePicker-MPPersianDatePicker";
+			productName = "MPPersianDatePicker-MPPersianDatePicker";
+			productReference = C05792635542069959B56AF6E5DFB1B5 /* MPPersianDatePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851CF7150444685C470082788BA7AD96 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */;
+			buildPhases = (
+				5D5AC0418099BE9EFEA67AA7EF8A9423 /* Sources */,
+				456A38528F491C16A318D4091CF2E1F8 /* Frameworks */,
+				EB3B104AA552AE0C55DA5E3D426A375A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTAppleCalendar;
+			productName = JTAppleCalendar;
+			productReference = 0E8B237256F5C59479793F32FD145134 /* JTAppleCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E99C5CC1237B32595CC401A65A57B94E /* MPPersianDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356ABCCE470D07965743690E5007EACC /* Build configuration list for PBXNativeTarget "MPPersianDatePicker" */;
+			buildPhases = (
+				3CEAFFF8EE8814BA8ACC85658D893D9D /* Sources */,
+				1D46081934B4F589FCEABF7E1D96F74B /* Frameworks */,
+				F7E72902CEA7B137783B20A78A7D4973 /* Resources */,
+				2F8E9F23D44683D0190860BCD16B5FC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BBB766F45293A1A32DB9A4507F3AE1 /* PBXTargetDependency */,
+				C4A52E33EA09B56EB7A2E0F9B10376E2 /* PBXTargetDependency */,
+				353C9E6135B8F2BB6FCD340D0F33DFE5 /* PBXTargetDependency */,
+			);
+			name = MPPersianDatePicker;
+			productName = MPPersianDatePicker;
+			productReference = 6DF7A2D6F32F22727E617B0B3CED2D5B /* MPPersianDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A2376E3398B37153A376FB72F613E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */,
+				E99C5CC1237B32595CC401A65A57B94E /* MPPersianDatePicker */,
+				ABCBBECD699C13938121AF38DD6FA440 /* MPPersianDatePicker-MPPersianDatePicker */,
+				4C5315050C93B116458DD1E00447EF5F /* Pods-MPPersianDatePicker_Example */,
+				996EBF3DCF3A60EEDA9086D9787236DE /* Pods-MPPersianDatePicker_Tests */,
+				0886E43A93B2EF376A02C86FD15BC1D0 /* PopupDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2560A5494E85F3BFCEF3C255734AA942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982EE7F751CF25929BEDD261C694C71D /* IRAN Sans Bold.ttf in Resources */,
+				04D3C5806DA900FA3741BA913ED76BEB /* MPPersianDatePicker.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E72902CEA7B137783B20A78A7D4973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B058D5C4D74E7A6DD2859DAF56EADEFF /* MPPersianDatePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4098C744BC2C38FAB1FEDF16ECBC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEAFFF8EE8814BA8ACC85658D893D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7C6131F2A109200E73349 /* DateType.swift in Sources */,
+				84E7C6141F2A109200E73349 /* MPCalendar.swift in Sources */,
+				84E7C6151F2A109200E73349 /* MPConvertorCalendar.swift in Sources */,
+				84E7C6161F2A109200E73349 /* MPGregorianCalendar.swift in Sources */,
+				84E7C6171F2A109200E73349 /* MPHijriCalendar.swift in Sources */,
+				84E7C6181F2A109200E73349 /* MPPersianCalendar.swift in Sources */,
+				3E6F2D632BA7800945D901E7C6FED213 /* Animation.swift in Sources */,
+				B9ABAE650A3000DAEE81B449895988E1 /* AnimationClass.swift in Sources */,
+				CCB021AE4114A26C528B52DC33BB6AAE /* CellView.swift in Sources */,
+				5E680D7A27D81F66CD877CA09D2BB5AD /* CustomButton.swift in Sources */,
+				E92DD4F696EFBDF8BC3754CB60E05651 /* CustomView.swift in Sources */,
+				A74D09BD02C219096484DF2E3097B722 /* MPPersianDatePicker-dummy.m in Sources */,
+				1468BFA57947607D4706CFBCF81C1A97 /* MPPersianDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5AC0418099BE9EFEA67AA7EF8A9423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF59B57CC636FECACC39325231B177 /* CalendarEnums.swift in Sources */,
+				6DE7D8CE614DBA55D744EDE81C632AD8 /* CalendarStructs.swift in Sources */,
+				6E8E4422AA0E96DCBB9D329BDFFB881A /* GlobalFunctionsAndExtensions.swift in Sources */,
+				E4E19B08166BF4E9E368134D68E9C7DE /* JTAppleCalendar-dummy.m in Sources */,
+				0383A13C6B7C59A3D8EA592B545DABA0 /* JTAppleCalendarDelegateProtocol.swift in Sources */,
+				7BE39092951B492E5954D8012747BFD0 /* JTAppleCalendarLayout.swift in Sources */,
+				E10E15A8A65DB167DE5046915870021A /* JTAppleCalendarLayoutProtocol.swift in Sources */,
+				18904C96207EA9E40B4E71F855201AD8 /* JTAppleCalendarVariables.swift in Sources */,
+				53D7D34D0142A101314ABFA663AC9D08 /* JTAppleCalendarView.swift in Sources */,
+				F2BB49EF903A70B7B68565CCE233FB83 /* JTAppleCell.swift in Sources */,
+				21A3A4A6EF95F8704DC18E4E5F509D07 /* JTAppleCollectionReusableView.swift in Sources */,
+				87329FA016F0D57803855BCE3E90EC82 /* JTCalendarProtocols.swift in Sources */,
+				42F0A3DBCAC670C336C5C988F6609D98 /* UICollectionViewDelegates.swift in Sources */,
+				F963037A1450F74FAE911C248EED47CE /* UIScrollViewDelegates.swift in Sources */,
+				2856845AB8FCE3B1D319091061F593EF /* UserInteractionFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D8EB9B9CBF9F952F5EFD4A1302388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD76BEBDFCA2286CB43BCCB055F4E6DA /* Pods-MPPersianDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8FA2ED660F1D82209F812887CDF851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57174EED87DF29A25C38B589283A2046 /* Pods-MPPersianDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C58E59B4874923D62EB0E756BDB022F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F7DC37B18C84E67DB74C799ECCCFEB /* FXBlurView.m in Sources */,
+				66034CEEF327A950C4642734A3496490 /* InteractiveTransition.swift in Sources */,
+				4738A6C3985018F7C8720753C2995FA6 /* PopupDialog+Keyboard.swift in Sources */,
+				EF6BFEA89DC092CD352CDF2FB3466617 /* PopupDialog-dummy.m in Sources */,
+				40B2AE2B918A7EAE9EA6984670F945CD /* PopupDialog.swift in Sources */,
+				5AA9E0162C97E8E97F2A558B1F243CF4 /* PopupDialogButton.swift in Sources */,
+				1AC8829C36344674DB76AF232A8C7786 /* PopupDialogContainerView.swift in Sources */,
+				2A60B42E5F1F7653F7E6DB5C20BD73FF /* PopupDialogDefaultButtons.swift in Sources */,
+				77FE749E0B034CAA403776FB6CA25E35 /* PopupDialogDefaultView.swift in Sources */,
+				1DAB24BDE62EF34780742A041648492D /* PopupDialogDefaultViewController.swift in Sources */,
+				9D91467BC728C7E653109DCD858A7CE2 /* PopupDialogOverlayView.swift in Sources */,
+				DC68D33C28C38EAFA1C0A3ED7455CB11 /* PresentationController.swift in Sources */,
+				F9110BAE110E561696E24C9A946B5454 /* PresentationManager.swift in Sources */,
+				E177ECCB39E4E0E006AE3E7C11DA95F4 /* TransitionAnimations.swift in Sources */,
+				6E7FE80513DC37D1C2BF75AAC1D7ADD4 /* TransitionAnimator.swift in Sources */,
+				F003F6D80D1081CBA9F30BD56625F4AA /* TZSpacerView.swift in Sources */,
+				5A1255F939210321D888DE445A384570 /* TZStackView.swift in Sources */,
+				894A32DE8E316BE62B3B8B4542E2E248 /* TZStackViewAlignment.swift in Sources */,
+				CA0FDA731D35B6DDF367E29E8DFF11DB /* TZStackViewDistribution.swift in Sources */,
+				40B0668BA1C1DB91FFF35AC6C66F6A97 /* UIImageView+Calculations.swift in Sources */,
+				40A731CDB7C3F0CC677CF4E748957C04 /* UIView+Animations.swift in Sources */,
+				150F7E235E18316A4E58004DAB2DAF55 /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BBF94AD9859277E4DD04737FA561D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */;
+			targetProxy = 31827F7A57FD2ABA5CBE7E55E408DA26 /* PBXContainerItemProxy */;
+		};
+		2E4707484FF8555810590C9DAEE28EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPPersianDatePicker;
+			target = E99C5CC1237B32595CC401A65A57B94E /* MPPersianDatePicker */;
+			targetProxy = DFC51A679F4500B5CF9F2200AE384F98 /* PBXContainerItemProxy */;
+		};
+		353C9E6135B8F2BB6FCD340D0F33DFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 0886E43A93B2EF376A02C86FD15BC1D0 /* PopupDialog */;
+			targetProxy = 92B8E2825581C257CB719A2414791ACB /* PBXContainerItemProxy */;
+		};
+		C4A52E33EA09B56EB7A2E0F9B10376E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MPPersianDatePicker-MPPersianDatePicker";
+			target = ABCBBECD699C13938121AF38DD6FA440 /* MPPersianDatePicker-MPPersianDatePicker */;
+			targetProxy = 493991998A4DE77F29717445CBB8562B /* PBXContainerItemProxy */;
+		};
+		C52B5E5B77976F54B5FAA75D529AD360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 0886E43A93B2EF376A02C86FD15BC1D0 /* PopupDialog */;
+			targetProxy = 53BD02A97BE22710F57F787C9F37E48D /* PBXContainerItemProxy */;
+		};
+		D1BBB766F45293A1A32DB9A4507F3AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */;
+			targetProxy = 7832B949F5C031BBDBE4D457F05FECBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14CA0B5040C2A66719B7FD706277F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7BD8D7945D157BC775A6AD4DC9E537 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D53C4F8525C75842FB4E15FBEA00DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2323065DF79BBA4D1354E9F20E6BF6 /* MPPersianDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPPersianDatePicker/MPPersianDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPPersianDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPPersianDatePicker/MPPersianDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MPPersianDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		313891CC7F1018511F289523D81B84AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE95659B2637E91F9C26A311F45EDB5 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E306882E7EC1B78F61316415B512257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2323065DF79BBA4D1354E9F20E6BF6 /* MPPersianDatePicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MPPersianDatePicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MPPersianDatePicker/ResourceBundle-MPPersianDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MPPersianDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6DD2CA4E33C2D98C852A9BCA16DC0732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9035A8C8A08D1AE1CDE384A39C7AA3D0 /* Pods-MPPersianDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPPersianDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPPersianDatePicker_Example/Pods-MPPersianDatePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPPersianDatePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B0665203E7F1A3AC81E1CB7E85ABDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2323065DF79BBA4D1354E9F20E6BF6 /* MPPersianDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPPersianDatePicker/MPPersianDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPPersianDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPPersianDatePicker/MPPersianDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MPPersianDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		941835D1E0DB3C01401C7E354CE825D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CCC0C984471A2B062724C90C88E71E /* Pods-MPPersianDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPPersianDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPPersianDatePicker_Example/Pods-MPPersianDatePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPPersianDatePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1B3830997A51E88D8F8ADB0AA20F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE95659B2637E91F9C26A311F45EDB5 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1BCA0B5EDD1BC1DD052F5E85F9D3272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421A772683690ECD290C8CF376D6AF92 /* Pods-MPPersianDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPPersianDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPPersianDatePicker_Tests/Pods-MPPersianDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPPersianDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1F0B624B34F8AC6BC3EA3F248B6CBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2323065DF79BBA4D1354E9F20E6BF6 /* MPPersianDatePicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MPPersianDatePicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MPPersianDatePicker/ResourceBundle-MPPersianDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MPPersianDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17D5FA918B22297F38409C575C1413D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CB32BC6949DDDD2DA29DA2A188020A /* Pods-MPPersianDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPPersianDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPPersianDatePicker_Tests/Pods-MPPersianDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPPersianDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C584E8F71ABEE9F0306FABC35833671E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7BD8D7945D157BC775A6AD4DC9E537 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F518789555F0F11514B5B0C0383D79B /* Build configuration list for PBXNativeTarget "MPPersianDatePicker-MPPersianDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F0B624B34F8AC6BC3EA3F248B6CBB0 /* Debug */,
+				4E306882E7EC1B78F61316415B512257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8355A9097D1DC57F9065C93E3DB6FB /* Build configuration list for PBXNativeTarget "Pods-MPPersianDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD2CA4E33C2D98C852A9BCA16DC0732 /* Debug */,
+				941835D1E0DB3C01401C7E354CE825D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356ABCCE470D07965743690E5007EACC /* Build configuration list for PBXNativeTarget "MPPersianDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D53C4F8525C75842FB4E15FBEA00DD9 /* Debug */,
+				7B0665203E7F1A3AC81E1CB7E85ABDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EC60AF881C5F37155D15CCA91CD54F /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CA0B5040C2A66719B7FD706277F18D /* Debug */,
+				C584E8F71ABEE9F0306FABC35833671E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851CF7150444685C470082788BA7AD96 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313891CC7F1018511F289523D81B84AD /* Debug */,
+				A1B3830997A51E88D8F8ADB0AA20F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44E58C9EDD4F7814294870C69C03164 /* Build configuration list for PBXNativeTarget "Pods-MPPersianDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17D5FA918B22297F38409C575C1413D /* Debug */,
+				A1BCA0B5EDD1BC1DD052F5E85F9D3272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

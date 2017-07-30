@@ -22,7 +22,7 @@
 This pod relies on:
 
 *   [PopupDialog](https://github.com/Orderella/PopupDialog)
-*   [JTAppleCalendar](https://github.com/WenchaoD/JTAppleCalendar)
+*   [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar)
 
 which will be installed with this pod.
 

@@ -1,0 +1,36 @@
+{
+  "name": "MPPersianDatePicker",
+  "version": "0.1.0",
+  "summary": "MPPersianDatePicker is persian popup dialog datepicker",
+  "description": "MPPersianDatePicker is persian popup dialog datepicker",
+  "homepage": "https://github.com/mojtabadj/MPPersianDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mojtaba Pourasghar": "mojtaba.developer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mojtabadj/MPPersianDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MPPersianDatePicker/Classes/**/*",
+  "resource_bundles": {
+    "MPPersianDatePicker": [
+      "MPPersianDatePicker/Assets/*"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "PopupDialog": [
+
+    ],
+    "JTAppleCalendar": [
+      "~> 7.0"
+    ]
+  }
+}

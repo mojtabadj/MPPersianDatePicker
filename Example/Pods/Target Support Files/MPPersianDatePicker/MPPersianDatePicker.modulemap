@@ -1,0 +1,6 @@
+framework module MPPersianDatePicker {
+  umbrella header "MPPersianDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

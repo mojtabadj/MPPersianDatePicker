@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MPPersianDatePicker_Example' do
+  pod 'MPPersianDatePicker', :path => '../'
+
+  target 'MPPersianDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
